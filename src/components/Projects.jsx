@@ -4,7 +4,7 @@ import Carousel from './Carousel.jsx'
 export default function Projects() {
   return (
     <section id="projects" className="section">
-      <img className="corner corner-tl" src="/nature/hillside.png" alt="" aria-hidden="true" />
+      <img className="decor decor-lily" src="/nature/lilypads.png" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
           <span className="section-index">01</span>

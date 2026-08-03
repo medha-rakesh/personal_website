@@ -9,7 +9,6 @@ export default function Nav() {
           <a href="#projects">projects</a>
           <a href="#experience">experience</a>
           <a href="#skills">skills</a>
-          <a href="#about">about</a>
           <a href="#contact">contact</a>
           <a href="/resume.pdf" target="_blank" rel="noopener" className="nav-resume">
             resume ↗

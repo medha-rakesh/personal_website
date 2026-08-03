@@ -1,11 +1,9 @@
 import { useEffect } from 'react'
 import Nav from './components/Nav.jsx'
-import Hero from './components/Hero.jsx'
-import Banner from './components/Banner.jsx'
+import Intro from './components/Intro.jsx'
 import Projects from './components/Projects.jsx'
 import Experience from './components/Experience.jsx'
 import Skills from './components/Skills.jsx'
-import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 
 export default function App() {
@@ -56,12 +54,10 @@ export default function App() {
     <>
       <Nav />
       <main>
-        <Hero />
-        <Banner />
+        <Intro />
         <Projects />
         <Experience />
         <Skills />
-        <About />
         <Contact />
       </main>
     </>
