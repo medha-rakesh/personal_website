@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
+import Banner from './components/Banner.jsx'
 import Projects from './components/Projects.jsx'
 import Experience from './components/Experience.jsx'
 import Skills from './components/Skills.jsx'
@@ -25,11 +26,38 @@ export default function App() {
     return () => io.disconnect()
   }, [])
 
+  useEffect(() => {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (reduce) return
+    const layers = document.querySelectorAll('[data-parallax]')
+    let ticking = false
+    const onScroll = () => {
+      if (ticking) return
+      ticking = true
+      requestAnimationFrame(() => {
+        layers.forEach((layer) => {
+          const rect = layer.parentElement.getBoundingClientRect()
+          const progress = (rect.top + rect.height / 2 - window.innerHeight / 2) / window.innerHeight
+          layer.style.setProperty('--par', `${(-progress * 60).toFixed(1)}px`)
+        })
+        ticking = false
+      })
+    }
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [])
+
   return (
     <>
       <Nav />
       <main>
         <Hero />
+        <Banner />
         <Projects />
         <Experience />
         <Skills />

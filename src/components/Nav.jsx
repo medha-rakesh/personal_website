@@ -6,13 +6,13 @@ export default function Nav() {
           MR
         </a>
         <div className="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#projects">projects</a>
+          <a href="#experience">experience</a>
+          <a href="#skills">skills</a>
+          <a href="#about">about</a>
+          <a href="#contact">contact</a>
           <a href="/resume.pdf" target="_blank" rel="noopener" className="nav-resume">
-            Résumé
+            resume ↗
           </a>
         </div>
       </div>
