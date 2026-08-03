@@ -93,7 +93,7 @@ img { display: block; max-width: 100%; }
 .intro-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; align-items: start; }
 @media (max-width: 760px) { .intro-grid { grid-template-columns: 1fr; gap: 30px; } }
 .intro-photo { width: 100%; border-radius: 10px; filter: saturate(1.02); }
-.intro-lead { font-size: clamp(1.1rem, 2.2vw, 1.5rem); line-height: 1.5; }
+.intro-lead { font-size: clamp(1rem, 1.85vw, 1.28rem); line-height: 1.55; }
 .intro-lead strong { color: var(--accent); font-weight: 600; }
 
 .hero-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
