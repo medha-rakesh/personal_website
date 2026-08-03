@@ -8,7 +8,7 @@ export default function Experience() {
         <div className="section-head head-img reveal">
           <span className="section-index">02</span>
           <h2 className="section-title">Experience</h2>
-          <img className="exp-range" src="/nature/mountainrange.png" alt="" aria-hidden="true" />
+          <img className="exp-range" src="/nature/mountainrange.png?v=2" alt="" aria-hidden="true" />
         </div>
         <div className="reveal">
           <Carousel>
