@@ -4,9 +4,9 @@ import Carousel from './Carousel.jsx'
 export default function Experience() {
   return (
     <section id="experience" className="section">
-      <img className="decor decor-pinkhill" src="/nature/pinkhill.png" alt="" aria-hidden="true" />
       <div className="wrap">
-        <div className="section-head reveal">
+        <div className="section-head exp reveal">
+          <img className="exp-mountain" src="/nature/mountain.png" alt="" aria-hidden="true" />
           <span className="section-index">02</span>
           <h2 className="section-title">Experience</h2>
         </div>

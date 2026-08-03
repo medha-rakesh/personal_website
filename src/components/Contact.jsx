@@ -6,7 +6,7 @@ export default function Contact() {
         <h2 className="reveal">Let's build something.</h2>
         <p className="contact-lead reveal">
           Open to software engineering and data science internships. Fastest way to reach me is
-          email or a call — or grab my resume below.
+          email or a call, or grab my resume below.
         </p>
         <div className="contact-links reveal">
           <a href="mailto:medha_rakesh@berkeley.edu">email ↗</a>

@@ -33,6 +33,7 @@ const groups = [
 export default function Skills() {
   return (
     <section id="skills" className="section">
+      <img className="decor decor-vine" src="/nature/vines.png" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
           <span className="section-index">03</span>

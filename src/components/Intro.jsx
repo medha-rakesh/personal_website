@@ -17,7 +17,7 @@ export default function Intro() {
               I'm a Data Science and Computer Science student at UC Berkeley who likes taking
               an idea all the way to something people can use. My favorite work sits where{' '}
               <strong>full-stack engineering</strong> meets{' '}
-              <strong>machine learning and data</strong> — building the pipeline, the model, and
+              <strong>machine learning and data</strong>, building the pipeline, the model, and
               the interface that ties them together. I care about correct, well-tested code, and
               I'm looking for a{' '}
               <strong>software engineering or data science internship</strong> where I can build
