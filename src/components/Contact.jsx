@@ -2,9 +2,10 @@ export default function Contact() {
   return (
     <section id="contact" className="section contact">
       <div className="wrap">
-        <div className="section-head reveal">
+        <div className="section-head head-img reveal">
           <span className="section-index">04</span>
           <h2 className="section-title">Let's build something.</h2>
+          <img className="contact-frog" src="/nature/frog.png" alt="" aria-hidden="true" />
         </div>
         <p className="contact-lead reveal">
           Open to software engineering and data science internships. Fastest way to reach me is
