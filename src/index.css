@@ -149,7 +149,7 @@ img { display: block; max-width: 100%; }
 
 /* ---------- contact ---------- */
 .contact { padding-bottom: calc(39vw + 64px); }
-.contact h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2.4rem, 7vw, 4.6rem); line-height: 1; letter-spacing: -0.035em; }
+.contact h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1; letter-spacing: -0.03em; }
 .contact-lead { margin-top: 20px; color: var(--ink-soft); font-size: 1.15rem; max-width: 46ch; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 36px; font-family: var(--font-mono); font-size: 14px; }
 .contact-links a { color: var(--accent); display: inline-flex; align-items: center; gap: 7px; border-bottom: 1px solid transparent; padding-bottom: 2px; }
@@ -163,15 +163,11 @@ img { display: block; max-width: 100%; }
 /* ---------- decorative nature accents ---------- */
 .decor { position: absolute; pointer-events: none; z-index: 0; }
 .decor-lily { top: 30px; right: 0; width: clamp(190px, 22vw, 300px); opacity: 0.92; }
-.decor-vine { top: -190px; right: 14px; width: clamp(100px, 13vw, 172px); z-index: 3; opacity: 0.96; }
+.decor-mountain { top: 24px; right: 0; width: clamp(200px, 24vw, 320px); opacity: 0.9; }
+.decor-vine { top: -56px; right: 0; width: clamp(100px, 13vw, 168px); opacity: 0.96; }
 #skills { overflow: visible; }
 @media (max-width: 960px) { .decor { display: none; } }
 
-.section-head.exp { align-items: center; }
-.exp-mountain {
-  flex: 0 0 auto; height: clamp(36px, 5vw, 58px); width: auto;
-  object-fit: contain;
-}
 
 /* ---------- reveal ---------- */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }

@@ -2,8 +2,10 @@ export default function Contact() {
   return (
     <section id="contact" className="section contact">
       <div className="wrap">
-        <span className="section-index reveal">05</span>
-        <h2 className="reveal">Let's build something.</h2>
+        <div className="section-head reveal">
+          <span className="section-index">04</span>
+          <h2 className="section-title">Let's build something.</h2>
+        </div>
         <p className="contact-lead reveal">
           Open to software engineering and data science internships. Fastest way to reach me is
           email or a call, or grab my resume below.
