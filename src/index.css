@@ -92,7 +92,7 @@ img { display: block; max-width: 100%; }
 .intro-body { padding: 68px 0 104px; }
 .intro-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; align-items: start; }
 @media (max-width: 760px) { .intro-grid { grid-template-columns: 1fr; gap: 30px; } }
-.intro-photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 10px; }
+.intro-photo { width: 100%; height: auto; border-radius: 10px; }
 .intro-lead {
   font-size: clamp(0.95rem, 1.6vw, 1.15rem); line-height: 1.6;
   max-width: 41em; text-align: justify; hyphens: auto;
