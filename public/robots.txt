@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medharakesh.vercel.app/sitemap.xml
