@@ -1,7 +1,11 @@
-# Medha Rakesh — Personal Website
+# Medha Rakesh's Personal Website
 
-Editorial single-page portfolio built with React + Vite. Recruiting-focused:
-Projects → Experience → Skills → About → Contact, with a one-click résumé.
+Live at **[medharakesh.vercel.app](https://medharakesh.vercel.app)**.
+
+An editorial, single-page personal site built with React and Vite. Recruiting focused,
+with a light cream aesthetic, bold Space Grotesk headlines, and hand-placed botanical
+accents. Sections run: Intro (photo and about) → Projects → Experience → Skills → Contact,
+with a one-click resume.
 
 ## Develop
 
@@ -14,21 +18,28 @@ npm run preview  # preview the production build
 
 ## Editing content
 
-All content lives in plain data files — no component changes needed:
+Most content lives in plain data files, so no component changes are needed:
 
-- **Projects** — `src/data/projects.js`
-- **Experience** — `src/data/experience.js`
-- **Skills** — `src/components/Skills.jsx` (the `groups` array at top)
-- **About / Contact copy** — `src/components/About.jsx`, `src/components/Contact.jsx`
-- **Résumé PDF** — replace `public/resume.pdf`
+- Projects: `src/data/projects.js`
+- Experience: `src/data/experience.js`
+- Skills: `src/components/Skills.jsx` (the `groups` array at the top)
+- Intro / about copy: `src/components/Intro.jsx`
+- Contact copy: `src/components/Contact.jsx`
+- Resume PDF: replace `public/resume.pdf`
+- Headshot: replace `public/headshot.jpg`
+- Nature accents: images in `public/nature/`
 
 ## Theming
 
-Swap the single `--accent` value in `src/index.css` (`:root` and the dark-mode block)
-to re-color the whole site. Light and dark modes both follow the visitor's OS theme.
+Swap the single `--accent` value in `src/index.css` (the `:root` block) to re-color the
+whole site. The site is committed to a light cream theme.
 
-## Deploy (Vercel)
+## Analytics
 
-1. Push this repo to GitHub.
-2. Import it at vercel.com → New Project. Framework preset: **Vite**.
-   Build command `npm run build`, output dir `dist`. Deploy.
+Vercel Web Analytics and Speed Insights are wired in via `@vercel/analytics` and
+`@vercel/speed-insights` in `src/App.jsx`, and enabled in the Vercel dashboard.
+
+## Deploy
+
+Hosted on Vercel. Every push to `main` redeploys automatically. Framework preset is
+Vite, build command `npm run build`, output directory `dist`.
