@@ -11,7 +11,7 @@ export default function Intro() {
 
       <div className="wrap intro-body">
         <div className="intro-grid reveal">
-          <img className="intro-photo" src="/headshot.jpg" alt="Medha Rakesh" />
+          <img className="intro-photo" src="/headshot.jpg?v=2" alt="Medha Rakesh" />
           <div className="intro-text">
             <p className="intro-lead">
               I'm a Data Science and Computer Science student at UC Berkeley who likes taking
