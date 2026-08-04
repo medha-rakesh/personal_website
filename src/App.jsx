@@ -5,6 +5,8 @@ import Projects from './components/Projects.jsx'
 import Experience from './components/Experience.jsx'
 import Skills from './components/Skills.jsx'
 import Contact from './components/Contact.jsx'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 export default function App() {
   useEffect(() => {
@@ -60,6 +62,8 @@ export default function App() {
         <Skills />
         <Contact />
       </main>
+      <Analytics />
+      <SpeedInsights />
     </>
   )
 }
