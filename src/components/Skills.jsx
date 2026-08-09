@@ -25,7 +25,6 @@ const groups = [
       'Full-stack development',
       'Data pipelines',
       'Machine learning',
-      'Computer architecture',
     ],
   },
 ]
