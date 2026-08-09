@@ -8,7 +8,8 @@ export default function Contact() {
             <h2 className="section-title">Let's build something.</h2>
           </div>
           <p className="contact-lead reveal">
-            Open to software engineering and data science internships. Fastest way to reach me is
+            Open to internships, research, and contract work across software engineering, data
+            science, and ML, and always up for an interesting problem. Fastest way to reach me is
             email or a call, or grab my resume below.
           </p>
           <div className="contact-links reveal">

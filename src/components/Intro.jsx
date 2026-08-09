@@ -19,9 +19,10 @@ export default function Intro() {
               <strong>full-stack engineering</strong> meets{' '}
               <strong>machine learning and data</strong>, building the pipeline, the model, and
               the interface that ties them together. I care about correct, well-tested code, and
-              I'm looking for a{' '}
-              <strong>software engineering or data science internship</strong> where I can build
-              alongside a strong team.
+              I'm open to{' '}
+              <strong>internships, research, and contract work</strong> across software
+              engineering, data science, and machine learning, and always up for an interesting
+              problem.
             </p>
             <div className="hero-cta">
               <a href="#projects" className="btn btn-primary">
