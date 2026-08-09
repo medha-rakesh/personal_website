@@ -25,7 +25,7 @@ export const projects = [
     id: 'thought-galaxy',
     name: 'Thought Galaxy',
     tagline: 'Voice-First Thought Mapping',
-    award: 'UC Berkeley AI Hackathon 2026',
+    award: '',
     description:
       'A voice-first tool that turns a spoken brain-dump into a living constellation of thoughts. Deepgram streams speech to text, Claude classifies each thought as a task, emotion, or idea and draws connections between them, and a D3 bubble galaxy animates the result. Past sessions are stored in Redis vector memory so any bubble can be asked for a grounded next step, and Fetch.ai agents can act on tasks like adding calendar events or drafting emails.',
     outcome: 'Turns a spoken brain-dump into an organized, searchable thought map in real time.',
