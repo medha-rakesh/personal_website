@@ -22,8 +22,8 @@ export const projects = [
     links: [{ label: 'GitHub', href: 'https://github.com/anikag35/cloudscape' }],
   },
   {
-    id: 'thought-galaxy',
-    name: 'Thought Galaxy',
+    id: 'mental-galaxy',
+    name: 'Mental Galaxy',
     tagline: 'Talk, and Watch Your Thoughts Organize',
     award: '',
     description:
