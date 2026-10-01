@@ -58,7 +58,7 @@ export const experience = [
     org: 'DataGood at Berkeley',
     role: 'Data Science Researcher',
     location: 'Berkeley, CA',
-    dates: 'Jan 2026 – Present',
+    dates: 'Jan – May 2026',
     summary:
       'Built and compared linear-regression, random-forest, and neural-net models to predict urban heat-island intensity across California census tracts. Adding physical features (tree canopy, traffic, ozone) raised performance from R²=0.32 to R²=0.81. Identified 357 dual-burden tracts and translated Tableau findings into geospatial visualizations for non-technical policy partners.',
   },
