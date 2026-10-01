@@ -54,6 +54,15 @@ export const experience = [
       'Fine-tuned a neural text-to-speech model (XTTS v2) in PyTorch on a single-speaker dataset to improve cloned-voice naturalness over OpenVoice and RVC baselines. Ran an A/B evaluation of OpenVoice, RVC, and XTTS on naturalness and speaker similarity, and integrated speaker diarization into the automated data-prep pipeline.',
   },
   {
+    id: 'datagood',
+    org: 'DataGood at Berkeley',
+    role: 'Data Science Researcher',
+    location: 'Berkeley, CA',
+    dates: 'Jan 2026 – Present',
+    summary:
+      'Built and compared linear-regression, random-forest, and neural-net models to predict urban heat-island intensity across California census tracts. Adding physical features (tree canopy, traffic, ozone) raised performance from R²=0.32 to R²=0.81. Identified 357 dual-burden tracts and translated Tableau findings into geospatial visualizations for non-technical policy partners.',
+  },
+  {
     id: 'salt',
     org: 'The SALT Research Group',
     role: 'Machine Learning Research Assistant',
