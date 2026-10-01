@@ -10,7 +10,7 @@ export default function Nav() {
           <a href="#experience">experience</a>
           <a href="#skills">skills</a>
           <a href="#contact">contact</a>
-          <a href="/resume.pdf" target="_blank" rel="noopener" className="nav-resume">
+          <a href="/resume.pdf?v=2" target="_blank" rel="noopener" className="nav-resume">
             resume ↗
           </a>
         </div>

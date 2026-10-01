@@ -21,7 +21,7 @@ export default function Contact() {
             <a href="https://github.com/medha-rakesh" target="_blank" rel="noopener">
               github ↗
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener">
+            <a href="/resume.pdf?v=2" target="_blank" rel="noopener">
               resume ↗
             </a>
           </div>

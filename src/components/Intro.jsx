@@ -28,7 +28,7 @@ export default function Intro() {
               <a href="#projects" className="btn btn-primary">
                 View work
               </a>
-              <a href="/resume.pdf" target="_blank" rel="noopener" className="btn btn-ghost">
+              <a href="/resume.pdf?v=2" target="_blank" rel="noopener" className="btn btn-ghost">
                 Resume ↗
               </a>
             </div>
