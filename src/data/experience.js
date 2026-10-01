@@ -1,41 +1,65 @@
 export const experience = [
   {
+    id: 'gitmachine',
+    org: 'GitMachine',
+    role: 'Machine Learning Engineer Intern',
+    location: 'Remote',
+    dates: 'Sep 2026 – Present',
+    summary:
+      "Onboarded open-source LLM model families onto the GPU serving stack end to end, from checkpoint audits and serving-engine verification to pre-deployment memory and latency prediction. Validated that each model serves correctly and meets its performance targets, including auditing an MXFP8-quantized checkpoint against the hardware vendor's recipe over framework defaults.",
+  },
+  {
+    id: 'legali',
+    org: 'Legali AI',
+    role: 'Software Engineering Intern',
+    location: 'Remote',
+    dates: 'Sep 2026 – Present',
+    summary:
+      'Shipped a full redesign of the public homepage for Lea, an agentic AI legal platform expanding access to justice for survivors and self-represented users, built end to end in Next.js, React, TypeScript, and Framer Motion. Added keyboard-accessible components, persistent light/dark theming, and motion-driven sections, and restructured the information architecture to consolidate conversion flows.',
+  },
+  {
+    id: 'aikifield',
+    org: 'AikiField',
+    role: 'Applied ML Intern',
+    location: 'Remote',
+    dates: 'Sep 2026 – Present',
+    summary:
+      'Fine-tuned a neural text-to-speech model (XTTS v2) in PyTorch on a single-speaker dataset to improve cloned-voice naturalness over OpenVoice and RVC baselines. Ran an A/B evaluation of OpenVoice, RVC, and XTTS on naturalness and speaker similarity, and integrated speaker diarization into the automated data-prep pipeline.',
+  },
+  {
+    id: 'hp',
+    org: 'HP',
+    role: 'ML Systems Researcher (Contract)',
+    location: 'Berkeley, CA',
+    dates: 'Sep 2026 – Present',
+    summary:
+      'Built a reproducible benchmark harness capturing 14 metrics per run (time-to-first-token, tokens/sec, memory, power) with one-command reruns by containerizing llama.cpp, Ollama, PyTorch, and vLLM in Docker. Benchmarked LLM inference on the HP ZGX Nano across model sizes from 7B to 200B, three quantization levels, and 128K contexts, and built a cost model comparing dollars per million tokens against cloud GPUs and frontier APIs.',
+  },
+  {
+    id: 'synopsys',
+    org: 'Synopsys',
+    role: 'Software & ML Systems Engineer (Contract)',
+    location: 'Remote',
+    dates: 'Dec 2025 – May 2026',
+    summary:
+      'Engineered a C++ and Django dashboard with parameterized REST endpoints and WebSocket feeds to surface real-time power and simulation metrics across 50+ hardware benchmarks for chip-design engineers. Cut repeat API latency by 68% across 10,000+ simulations with Redis caching, and trained gradient-boosted models to forecast chip power from netlist features, saving 2+ simulation hours per sign-off.',
+  },
+  {
     id: 'salt',
     org: 'The SALT Research Group',
     role: 'Machine Learning Research Assistant',
     location: 'Berkeley, CA',
     dates: 'Jan – May 2026',
     summary:
-      'Engineered an automated pipeline that parses raw instrument output, computes cross-trial statistics, and exports structured data, replacing a manual workflow. Built signal-preprocessing logic (frequency filtering, sign-convention correction, trial averaging) to measure molten-salt conductivity across 500 to 700°C for nuclear-reactor safety monitoring.',
-    points: [
-      'Engineered an automated data-processing pipeline that parses raw instrument output files, computes statistics across experimental trials, and exports structured data for downstream analysis, replacing a manual workflow.',
-      'Implemented signal-preprocessing logic (frequency filtering, sign-convention correction, and trial averaging) to measure the electrical conductivity of molten salt across a 500–700°C range for nuclear-reactor safety monitoring.',
-    ],
-  },
-  {
-    id: 'datagood',
-    org: 'DataGood at Berkeley',
-    role: 'Data Science Researcher',
-    location: 'Berkeley, CA',
-    dates: 'Jan 2026 – Present',
-    summary:
-      'Built and compared linear-regression, random-forest, and neural-net models to predict urban heat-island intensity across California census tracts. Adding physical features (tree canopy, traffic, ozone) raised performance from R²=0.32 to R²=0.81. Identified 357 dual-burden tracts and translated Tableau findings into geospatial visualizations for non-technical policy partners.',
-    points: [
-      'Built and compared multiple ML models (linear regression, random forest, neural network) to predict urban heat-island intensity across California census tracts; adding physical environmental features (tree canopy, traffic, ozone) raised model performance from R²=0.32 to R²=0.81.',
-      'Identified 357 dual-burden census tracts across LA, Riverside, and San Diego, and translated Tableau findings into geospatial visualizations and a final pitch deck to communicate heat-mitigation priorities to non-technical policy partners.',
-    ],
+      'Engineered an automated pipeline that parses raw instrument output, computes cross-trial statistics, and exports structured data, replacing a manual workflow. Built EIS signal-preprocessing logic (frequency filtering, sign-convention correction, trial averaging) to measure the electrical conductivity of FLiBe molten salt across 500 to 700°C for nuclear-reactor safety monitoring.',
   },
   {
     id: 'bloomberg',
     org: 'Bloomberg',
-    role: 'KWK Instructor',
+    role: 'Data Science Instructor, Kode With Klossy',
     location: 'San Francisco, CA',
     dates: 'Jul 2026',
     summary:
-      'Taught SQL, relational database design, and statistical analysis to 30 high-school scholars over a two-week intensive, leading labs on multi-table joins and query optimization with one-on-one debugging. Led capstone teams through the full development lifecycle: requirements, user research, wireframing, iterative code review, and final demos to industry mentors.',
-    points: [
-      'Taught SQL, relational database design, and statistical analysis to 30 high-school scholars over a two-week intensive, leading labs on multi-table joins and query optimization with one-on-one debugging support.',
-      'Led capstone teams through the full software development lifecycle, from requirements gathering and user research through wireframing, iterative code review, and final demos to industry mentors.',
-    ],
+      'Guided 30 high-school scholars to finished capstone demos in a two-week intensive, teaching SQL, relational database design, and statistical analysis through hands-on labs on multi-table joins, query optimization, and one-on-one debugging. Led teams through the full development lifecycle, from requirements and wireframes to code review and final demos.',
   },
 ]

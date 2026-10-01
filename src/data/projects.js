@@ -27,9 +27,9 @@ export const projects = [
     tagline: 'Talk, and Watch Your Thoughts Organize',
     award: '',
     description:
-      'A voice-first tool that turns a spoken brain-dump into a living constellation of thoughts. Deepgram streams speech to text, Claude classifies each thought as a task, emotion, or idea and draws connections between them, and a D3 bubble galaxy animates the result. Past sessions are stored in Redis vector memory so any bubble can be asked for a grounded next step, and Fetch.ai agents can act on tasks like adding calendar events or drafting emails.',
+      'A voice-first tool that turns a spoken brain-dump into a living constellation of thoughts: you talk, and each thought is transcribed, classified as a task, emotion, or idea, and mapped with connections to related ones. I built the real-time FastAPI and WebSocket backend that streams live mic audio through Deepgram speech-to-text and Claude classification, fixed a production WebSocket crash, and led the integration of three developers\' components into one working system.',
     outcome: 'Turns a spoken brain-dump into an organized, searchable thought map in real time.',
-    tags: ['React', 'D3', 'FastAPI', 'Deepgram', 'Anthropic', 'Redis', 'Fetch.ai'],
+    tags: ['FastAPI', 'WebSockets', 'Deepgram', 'Claude', 'Sentry'],
     links: [{ label: 'GitHub', href: 'https://github.com/gargi-ramacharan/mentalgalaxy' }],
   },
   {

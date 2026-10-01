@@ -1,31 +1,29 @@
 const groups = [
   {
     title: 'Languages',
-    items: ['Python', 'Java', 'C', 'TypeScript', 'JavaScript', 'SQL', 'R', 'HTML/CSS'],
+    items: ['Python', 'Java', 'C++', 'TypeScript', 'JavaScript', 'SQL', 'R', 'HTML/CSS'],
   },
   {
-    title: 'Frameworks & Tools',
+    title: 'ML & Systems',
     items: [
-      'FastAPI',
-      'Next.js',
-      'React Native',
-      'REST APIs',
+      'PyTorch',
+      'vLLM',
+      'llama.cpp',
+      'Ollama',
       'scikit-learn',
       'pandas',
       'NumPy',
-      'Git',
-      'Supabase',
+      'GPU inference',
+      'Quantization',
     ],
   },
   {
-    title: 'Concepts',
-    items: [
-      'Data structures',
-      'Algorithms',
-      'Full-stack development',
-      'Data pipelines',
-      'Machine learning',
-    ],
+    title: 'Web',
+    items: ['React', 'Next.js', 'Node.js', 'FastAPI', 'Django', 'Framer Motion', 'REST APIs', 'WebSockets'],
+  },
+  {
+    title: 'Infra & Tools',
+    items: ['Docker', 'Kubernetes', 'AWS', 'Redis', 'Supabase', 'Git', 'Sentry'],
   },
 ]
 
